@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../img/background.png");
+    position: relative;;
+}
+/***********************en tete starting********************/
+header nav{
+    width: 100%;
+    display: flex;
+    background-color: #C55394;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header nav div h1{
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+header nav #Menu ul{
+    float: right;
+}
+header nav #Menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+header nav #Menu ul li:hover{
+    background-color: #EB43A3;
+}
+/*******************************en tete ending*****************************/
+
+/****************************contenu***********************************/
+
+/********un jour,une licorne************/
+#rainbow {
+    background: url("../img/rainbow.png") no-repeat;
+    background-position-x: 50%;
+    background-position-y: 0px;
+    padding: 70px;
+    
+}
+#text {
+    font-family: 'Courgette', cursive;
+	color:#C55394;
+    text-align: center;
+}
+
+/***********menu***********/
+#contenu {
+    background-color: white;
+    margin:0 15% 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+h2{
+    font-family: 'Courgette', cursive;
+    color:  #EB43A3;
+}
+#contenu >div{
+    padding: 20px;
+}
+
+
+/*************4 images********/
+#unicorn::after {
+    content: '';
+    clear: both;
+    display: table;
+    
+}
+#unicorn div{
+    float: left;
+    width: 25%;
+    transition: 0.5s;
+    padding: 15px 0;}
+
+div figure{
+    width: 90%;
+}
+
+.unicorn{
+    width: 100%;
+}
+figcaption{
+    position:relative;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+#unicorn div:hover{
+    transform: scale(1.2);
+}
+
+
+/****************Find us*****************/
+#find::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#find  span{
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+
+}
+#Map {
+    width: 50%;
+    
+}
+h3{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+    padding: 20px 0;
+}
+input{
+    margin: 10px 0;
+}
+#valider{
+    background-color: #C55394;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+    border:none;
+}
+
+/********************footer******************/
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: #C55394;
+    text-align: end;
+    padding:10px 0;
+    position: relative;
+}
